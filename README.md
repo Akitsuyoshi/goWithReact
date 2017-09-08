@@ -1,29 +1,29 @@
-# go-json
+# Golang API with React in Docker
 
 This simple api is written in golang.
+Front side is written in React.
 
 ### Prerequisites
 1. You've already set your $GOPATH up in your local
-2. the knowledge of some docker to use
+2. the knowledge of docker to use
 
 
 ### the settting to use
 
 1. Install this repository into your local
 
- `$ git clone https://github.com/Akitsuyoshi/restGo`
+ `$ git clone https://github.com/Akitsuyoshi/goWithReact`
 
 2. Build the Docker image
 
- `$ docker build -t restgo .`
+ `$ docker build -t gowithreact .`
 
 3. Run the image
 
- `$ docker run -p 80:8080 restgo`
+ `$ docker run -p 80:3000 gowithreact`
 
-And visit http://localhost/v1/ in your browser, you can see the application run.
+And visit http://localhost/ in your browser, you can see the application run.
 
-Also, when you hit http://localhost/v1/todos/, you see all JSON data.
 
 
 If you'd like to stop, follow the commands
