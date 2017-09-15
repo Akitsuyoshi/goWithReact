@@ -132,9 +132,9 @@ var Product = React.createClass({
     return(
     <div className="col-xs-4">
       <div className="panel panel-default">
-        <div className="panel-heading">{this.props.product.Name} <span className="pull-right">{this.state.voted}</span></div>
+        <div className="panel-heading">{this.props.product.name} <span className="pull-right">{this.state.voted}</span></div>
         <div className="panel-body">
-          {this.props.product.Description}
+          {this.props.product.description}
         </div>
         <div className="panel-footer">
           <a onClick={this.upvote} className="btn btn-default">
